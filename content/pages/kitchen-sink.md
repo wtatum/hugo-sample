@@ -4,7 +4,7 @@ date: 2018-01-28T15:48:48-05:00
 draft: false
 ---
 
-Basic text
+Basic text!
 
 Text updated to be *italic* or **bold**
 
