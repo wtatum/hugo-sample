@@ -1,4 +1,4 @@
-baseURL = "http://wtatum-hugo-sample.tru.io/"
+baseURL = "/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "ananke"
