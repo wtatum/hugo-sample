@@ -28,7 +28,7 @@ Creating a [hyperlink](http://www.google.com)
     1. With manual renumbering
 
 ## Images
-![GitHub Logo](http://www.github.com/images/logo.png)
+![Google Logo](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
 
 ## Blockquotes
 

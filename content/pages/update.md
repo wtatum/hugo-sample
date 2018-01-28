@@ -11,8 +11,4 @@ Pretty good
 
 - LI 1
 - LI 2
-<<<<<<< HEAD
 - LI 3
-=======
-- LI 3
->>>>>>> 42178acdac1ad0994fc0c5eef5b2064d904f86cb
