@@ -1,8 +1,7 @@
 ---
-title: "Update"
+title: "My First Blog Post"
 date: 2018-01-28T15:15:59-05:00
 draft: false
-type: blog
 ---
 
 This page was created as a draft
