@@ -1,12 +1,13 @@
 ---
+# Don't change these
+featuredpath: "/img/"
+type: "post"
+
 # Change this title
-title: "Test"
+title: "Sample"
 
 # Optional description
-description: "A post made via GitHub UI"
-
-# Don't need to change this
-featuredpath: "/img/"
+# description: "A special place"
 
 # Your name goes here
 author: Will Tatum
@@ -16,13 +17,13 @@ categories: [
 ]
 
 # Change draft to 'false' to publish
-draft: false
+draft: true
 
 # Change date to match today
-date: 2018-03-31T18:26:00-04:00
+date: 2018-03-31T18:18:19-04:00
 
 # Filename of file in /static/img for features image
 # featured: "big-cove-crop-2.png"
 ---
 
-I made this post using the GitHub UI to test online editing
+Write whatever you want down here
