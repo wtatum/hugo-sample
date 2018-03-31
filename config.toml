@@ -1,18 +1,122 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "It's a Wedding!!!"
-theme = "universal"
+title = "Our Wedding"
+theme = "future-imperfect"
+preserveTaxonomyNames = true
 sectionPagesMenu = "main"
+pluralizeListTitles = false
+canonifyURLs = true
 
 Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
 
 [params]
-  favicon = ""
-  description = "The last theme you'll ever need. Maybe."
-  facebook = ""
-  twitter = ""
-  instagram = ""
-  youtube = ""
-  github = "https://github.com/wtatum/hugo-wedding"
-  linkedin = ""
+  navbarTitle = "Our Wedding"
   date_format = "January 2, 2006"
+  # Sets Social Media icons to appear on the sidebar
+  socialAppearAtTop    = true
+  socialAppearAtBottom = true
+
+  # These are optional params related to the sidebar. They are recommended, but not
+  # required for proper functionality. HTML is supported within the params.
+[params.intro]
+  header    = "Mayghen + Will"
+  paragraph = "<a href=\"/event\">September 8, 2018</a><br/><a href=\"/venue\">Camp Kabeyun<br>Alton Bay, NH</a>"
+  
+  # This appears at the top of the sidebar above params.intro.header.
+  # A width of less than 100px is recommended from a design perspective.
+  [params.intro.pic]
+    src       = "/img/Will-Mayghen-Croatia-Crop2.png"
+    # Sets Image to be a cirlce
+    circle    = true
+    # Sets Image to be Future Imperfect's hexagon
+    imperfect = false
+    width     = "200px"
+    alt       = "Our Faces"
+
+# Sets the menu items in the navigation bar
+# Identifier prepends a Font Awesome icon to the menu item
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  identifier = "fa fa-home"
+  weight = 10
+
+[[menu.main]]
+  name = "The Main Event"
+  url = "/event/"
+  identifier = "fa fa-calendar"
+  weight = 20
+
+[[menu.main]]
+  name = "Registry"
+  url = "/registry/"
+  identifier = "fa fa-gift"
+  weight = 30
+
+[[menu.main]]
+  name = "RSVP"
+  url = "/rsvp/"
+  identifier = "fa fa-envelope"
+  weight = 40
+
+[[menu.main]]
+  name = "Venue"
+  url = "/venue/"
+  identifier = "fa fa-map-marker"
+  weight = 50
+
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  identifier = "fa fa-sitemap"
+  weight = 60
+
+# Sets Social Media icons to appear and link to your account. Value should be your
+# username unless otherwise noted. These are the icons affected by socialAppearAtTop
+# and socialAppearAtBottom.
+[social]
+  # Coding Communities
+  github           = "wtatum/hugo-wedding"
+  gitlab           = ""
+  stackoverflow    = "" # User Number
+  bitbucket        = ""
+  jsfiddle         = ""
+  codepen          = ""
+  # Visual Art Communities
+  deviantart       = ""
+  flickr           = ""
+  behance          = ""
+  dribbble         = ""
+  # Publishing Communities
+  wordpress        = ""
+  medium           = ""
+  # Professional/Business Oriented Communities
+  linkedin         = ""
+  linkedin_company = ""
+  foursquare       = ""
+  xing             = ""
+  slideshare       = ""
+  # Social Networks
+  facebook         = ""
+  googleplus       = ""
+  reddit           = ""
+  quora            = ""
+  youtube          = ""
+  vimeo            = ""
+  whatsapp         = "" # WhatsApp Number
+    # WeChat and QQ need testing.
+    wechat         = ""
+    qq             = "" # User ID Number
+  instagram        = ""
+  tumblr           = ""
+  twitter          = ""
+  skype            = ""
+  snapchat         = ""
+  pinterest        = ""
+  telegram         = ""
+  vine             = ""
+  googlescholar    = ""
+  orcid            = ""
+  researchgate     = ""
+  # Email
+  email            = ""
