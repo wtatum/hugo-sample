@@ -61,7 +61,7 @@ Paginate = 10 # this is set low for demonstrating with dummy content. Set to a h
 
 [[menu.main]]
   name = "Venue"
-  url = "/venue/"
+  url = "/posts/venue/"
   identifier = "fa fa-map-marker"
   weight = 50
 
