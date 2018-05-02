@@ -20,7 +20,7 @@ Paginate = 10 # this is set low for demonstrating with dummy content. Set to a h
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
   header    = "Mayghen + Will"
-  paragraph = "<a href=\"/event\">September 8, 2018</a><br/><a href=\"/venue\">Camp Kabeyun<br>Alton Bay, NH</a>"
+  paragraph = "<a href=\"/event\">September 8, 2018</a><br/><a href=\"/posts/venue\">Camp Kabeyun<br>Alton Bay, NH</a>"
   
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
