@@ -5,7 +5,14 @@ draft: false
 type: page
 ---
 
-<div style="position: relative; height: 1584px; width: 720px; overflow: hidden;">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScY0s17bxjDoQ1JIDcP5pCiP90lLlewftYY1jIaccj_9cUjQw/viewform?embedded=true"
-    frameborder="0" marginheight="0" marginwidth="0" style="position: absolute; top:0; left:0; width: 100%; height: 100%;">Loading...</iframe>
-</div>
+Please complete our RSVP online by clicking below. If you have any difficulties please feel free to contact us directly.
+
+<hr>
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScY0s17bxjDoQ1JIDcP5pCiP90lLlewftYY1jIaccj_9cUjQw/viewform?usp=sf_link" target="_blank">
+  <div style="height: 94px; width:240px; border: solid 1px rgba(160,160,160,0.5); padding: 12px">
+    {{< img-fit
+        "4u" "google-logo-black.png" "RSVP on Google Forms"
+        "/img/" >}}
+  </div>
+</a>
