@@ -18,5 +18,5 @@ type: page
 <br>43 Camp Kabeyun Road
 <br>Alton Bay, New Hampshire, 03810
 
-<p>Dinner, drinks, and dancing to follow
+<p>Dinner, drinks, and dancing to follow. No children under 18.
 </div>
