@@ -48,6 +48,12 @@ Paginate = 10 # this is set low for demonstrating with dummy content. Set to a h
   weight = 20
 
 [[menu.main]]
+  name = "FAQ"
+  url = "/faq/"
+  identifier = "fa fa-question"
+  weight = 25
+
+[[menu.main]]
   name = "Registry"
   url = "/registry/"
   identifier = "fa fa-gift"
